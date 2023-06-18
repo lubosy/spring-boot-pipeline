@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
 
     // demo git actions project
-
+    // test endpoint
     @GetMapping("getstuff")
     public ResponseEntity<?> getStatus(){
 
