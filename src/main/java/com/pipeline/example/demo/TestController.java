@@ -7,10 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class TestController {
+   // demo  endpoint
 
-    // demo git actions project
-
-    // demo  endpoint
     @GetMapping("getstuff")
     public ResponseEntity<?> getStatus(){
 
