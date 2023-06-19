@@ -10,6 +10,7 @@ public class TestController {
 
     // demo git actions project
 
+    // demo  endpoint
     @GetMapping("getstuff")
     public ResponseEntity<?> getStatus(){
 
